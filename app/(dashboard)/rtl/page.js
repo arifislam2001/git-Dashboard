@@ -4,14 +4,14 @@ import TopbarRTL from "@/components/layout/TopbarRTL";
 export default function RTLPage() {
   return (
     <div dir="rtl" className="min-h-screen bg-vision-gradient flex flex-row-reverse -m-4 md:-m-6">
-      {/* Sidebar ডান পাশে */}
+      
       <SidebarRTL />
 
       <div className="flex-1 flex flex-col min-h-screen">
         <TopbarRTL />
 
         <main className="flex-1 p-4 md:p-6 space-y-6" dir="rtl">
-          {/* সারি ১: পরিসংখ্যান কার্ড */}
+       
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { title: "أموال اليوم", value: "53,000$", change: "+55%" },
@@ -32,7 +32,7 @@ export default function RTLPage() {
             ))}
           </div>
 
-          {/* সারি ২: Welcome কার্ড */}
+          
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
             <div className="lg:col-span-1 rounded-vision-lg bg-vision-card p-6 min-h-[200px] flex flex-col justify-between text-right">
               <div>
@@ -73,8 +73,7 @@ export default function RTLPage() {
             </div>
           </div>
 
-          {/* সারি ৩: Projects টেবিল (RTL) */}
-          <div className="rounded-vision-lg bg-vision-card p-4 text-right">
+          <div className="rounded-vision-lg bg-vision-card p-5 text-right">
             <h3 className="text-sm font-semibold">المشاريع</h3>
             <p className="text-xs text-vision-cyan mt-1">تم إنجاز 30 هذا الشهر</p>
 

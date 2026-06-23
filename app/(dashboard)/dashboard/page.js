@@ -11,20 +11,20 @@ import { statCards } from "@/lib/data";
 export default function DashboardPage() {
   return (
     <div className="space-y-6">
-      {/* সারি ১: ৪টা স্ট্যাট কার্ড */}
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {statCards.map((card) => (
           <StatCard key={card.title} {...card} />
         ))}
       </div>
 
-      {/* সারি ২: Welcome / Satisfaction / Referral */}
+    
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div className="lg:col-span-1">
           <WelcomeCard />
         </div>
 
-        <div className="rounded-vision-lg bg-vision-card p-4 flex flex-col items-center justify-center relative">
+        <div className="rounded-vision-lg bg-vision-card p-5 flex flex-col items-center justify-center relative">
           <h3 className="text-sm font-semibold self-start">Satisfaction Rate</h3>
           <p className="text-xs text-vision-text-muted self-start">From all projects</p>
           <div className="relative mt-4">
@@ -35,7 +35,7 @@ export default function DashboardPage() {
         <ReferralCard />
       </div>
 
-      {/* সারি ৩: Sales chart + Active users chart */}
+      
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div className="lg:col-span-2">
           <SalesChart />
@@ -43,7 +43,7 @@ export default function DashboardPage() {
         <ActiveUsersChart />
       </div>
 
-      {/* সারি ৪: Projects table + Orders overview */}
+      
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div className="lg:col-span-2">
           <ProjectsTable />

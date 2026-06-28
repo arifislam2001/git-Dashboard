@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { Facebook, Apple, Chrome } from "lucide-react";
+import { FaFacebook, FaApple, FaGoogle } from 'react-icons/fa'
 
 export default function SignUpPage() {
   return (
     <div className="min-h-screen flex flex-col lg:flex-row bg-vision-bg">
-      {/* বাম পাশ — হিরো ইমেজ/গ্রেডিয়েন্ট */}
+     
       <div className="relative w-full lg:w-1/2 min-h-[300px] lg:min-h-screen overflow-hidden">
-        {/* TODO: আসল ছবি বসাতে চাইলে এই div এর বদলে <img src="..." className="w-full h-full object-cover" /> দিন */}
+       
         <div className="absolute inset-0 bg-gradient-to-br from-purple-700 via-vision-blue to-vision-bg" />
         <div className="absolute inset-0 bg-black/20" />
 
@@ -18,9 +18,9 @@ export default function SignUpPage() {
         </div>
       </div>
 
-      {/* ডান পাশ — ফর্ম */}
+     
       <div className="w-full lg:w-1/2 flex flex-col">
-        {/* টপ নেভ */}
+      
         <div className="flex items-center justify-between px-6 py-4">
           <p className="text-sm font-bold tracking-wide">
             VISION UI <span className="text-vision-blue">FREE</span>
@@ -44,7 +44,7 @@ export default function SignUpPage() {
           </button>
         </div>
 
-        {/* ফর্ম এরিয়া */}
+      
         <div className="flex-1 flex flex-col items-center justify-center px-6">
           <div className="w-full max-w-sm">
             <h2 className="text-2xl font-bold text-center">Welcome!</h2>
@@ -54,18 +54,17 @@ export default function SignUpPage() {
 
             <div className="rounded-vision-lg bg-vision-card p-6 mt-6">
               <p className="text-sm text-center font-medium">Register with</p>
-
-              <div className="flex items-center justify-center gap-3 mt-3">
-                <button className="w-10 h-10 rounded-full bg-vision-card-light flex items-center justify-center hover:bg-white/10 transition">
-                  <Facebook size={16} />
-                </button>
-                <button className="w-10 h-10 rounded-full bg-vision-card-light flex items-center justify-center hover:bg-white/10 transition">
-                  <Apple size={16} />
-                </button>
-                <button className="w-10 h-10 rounded-full bg-vision-card-light flex items-center justify-center hover:bg-white/10 transition">
-                  <Chrome size={16} />
-                </button>
-              </div>
+           <div className="flex items-center justify-center gap-3 mt-3">
+         <button className="w-10 h-10 rounded-full bg-vision-card-light flex items-center justify-center hover:bg-white/10 transition">
+        <FaFacebook size={16} />
+         </button>
+          <button className="w-10 h-10 rounded-full bg-vision-card-light flex items-center justify-center hover:bg-white/10 transition">
+              <FaApple size={16} />
+         </button>
+            <button className="w-10 h-10 rounded-full bg-vision-card-light flex items-center justify-center hover:bg-white/10 transition">
+             <FaGoogle size={16} />
+          </button>
+           </div>
 
               <div className="flex items-center gap-2 my-4">
                 <div className="flex-1 h-px bg-white/10" />
@@ -124,7 +123,7 @@ export default function SignUpPage() {
           </div>
         </div>
 
-        {/* ফুটার */}
+     
         <div className="text-center text-xs text-vision-text-muted py-4">
           <p>@ 2021, Made with ❤️ by Simmmple &amp; Creative Tim for a better web</p>
           <div className="flex items-center justify-center gap-4 mt-1">

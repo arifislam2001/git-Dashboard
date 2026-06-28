@@ -9,7 +9,7 @@ export default function ProjectsCard() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
         {profileProjects.map((project) => (
           <div key={project.id} className="flex flex-col">
-            {/* TODO: project.image দিয়ে আসল ছবি বসান (next/image) */}
+   
             <div className="w-full h-32 rounded-lg bg-gradient-to-br from-vision-blue/40 to-purple-600/40" />
 
             <p className="text-xs text-vision-text-muted mt-3">Project #{project.id}</p>
@@ -22,7 +22,7 @@ export default function ProjectsCard() {
               <button className="text-xs px-3 py-1.5 rounded-lg bg-vision-card-light hover:bg-white/10 transition">
                 VIEW ALL
               </button>
-              {/* TODO: টিম মেম্বার avatar গুলো বসান */}
+       
               <div className="flex -space-x-2">
                 <div className="w-6 h-6 rounded-full bg-red-400 border-2 border-vision-card" />
                 <div className="w-6 h-6 rounded-full bg-blue-400 border-2 border-vision-card" />

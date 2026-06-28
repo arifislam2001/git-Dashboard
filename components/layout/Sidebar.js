@@ -32,7 +32,7 @@ export default function Sidebar() {
 
   return (
     <aside className="hidden md:flex md:flex-col w-64 shrink-0 bg-vision-card/60 border-r border-white/5 p-4">
-      {/* ব্র্যান্ড / লোগো */}
+     
       <div className="px-2 py-4 text-lg font-bold tracking-wide">
         VISION UI <span className="text-vision-blue">FREE</span>
       </div>

@@ -20,7 +20,7 @@ export default function ReferralCard() {
       </div>
 
       <div className="flex flex-col items-center mt-4">
-        {/* Safety Score — CircularProgress কম্পোনেন্ট এখানে রিইউজ করুন */}
+
         <p className="text-2xl font-bold text-vision-cyan">9.3</p>
         <p className="text-xs text-vision-text-muted">Total Score</p>
       </div>

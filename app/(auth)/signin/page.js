@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function SignInPage() {
   return (
     <div className="min-h-screen flex flex-col lg:flex-row bg-vision-bg">
-      {/* বাম পাশ — হিরো ইমেজ/গ্রেডিয়েন্ট */}
+     
       <div className="relative w-full lg:w-1/2 min-h-[300px] lg:min-h-screen overflow-hidden">
-        {/* TODO: আসল ছবি বসাতে চাইলে এই div এর বদলে <img src="..." className="w-full h-full object-cover" /> দিন */}
+       
         <div className="absolute inset-0 bg-gradient-to-br from-purple-700 via-vision-blue to-vision-bg" />
         <div className="absolute inset-0 bg-black/20" />
 
@@ -17,9 +17,9 @@ export default function SignInPage() {
         </div>
       </div>
 
-      {/* ডান পাশ — ফর্ম */}
+   
       <div className="w-full lg:w-1/2 flex flex-col">
-        {/* টপ নেভ */}
+       
         <div className="flex items-center justify-between px-6 py-4">
           <p className="text-sm font-bold tracking-wide">
             VISION UI <span className="text-vision-blue">FREE</span>
@@ -43,7 +43,6 @@ export default function SignInPage() {
           </button>
         </div>
 
-        {/* ফর্ম এরিয়া */}
         <div className="flex-1 flex flex-col items-center justify-center px-6">
           <div className="w-full max-w-sm">
             <h2 className="text-2xl font-bold">Nice to see you!</h2>
@@ -92,7 +91,7 @@ export default function SignInPage() {
           </div>
         </div>
 
-        {/* ফুটার */}
+  
         <div className="text-center text-xs text-vision-text-muted py-4">
           <p>@ 2021, Made with ❤️ by Simmmple &amp; Creative Tim for a better web</p>
           <div className="flex items-center justify-center gap-4 mt-1">

@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram } from "lucide-react";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function ProfileInfoCard() {
   return (
@@ -31,9 +31,9 @@ export default function ProfileInfoCard() {
 
       <div className="flex items-center gap-3 mt-4">
         <p className="text-xs text-vision-text-muted">Social Media</p>
-        <Facebook size={16} className="text-vision-text-muted cursor-pointer hover:text-white" />
-        <Twitter size={16} className="text-vision-text-muted cursor-pointer hover:text-white" />
-        <Instagram size={16} className="text-vision-text-muted cursor-pointer hover:text-white" />
+        <FaFacebook size={16} className="text-vision-text-muted cursor-pointer hover:text-white" />
+        <FaTwitter size={16} className="text-vision-text-muted cursor-pointer hover:text-white" />
+        <FaInstagram size={16} className="text-vision-text-muted cursor-pointer hover:text-white" />
       </div>
     </div>
   );

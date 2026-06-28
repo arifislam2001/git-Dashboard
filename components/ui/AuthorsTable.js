@@ -23,7 +23,7 @@ function Avatar({ name, avatar }) {
       />
     );
   }
-  // avatar না থাকলে নামের প্রথম অক্ষর দিয়ে প্লেসহোল্ডার
+
   const initial = name?.charAt(0).toUpperCase() || "?";
   return (
     <div className="w-9 h-9 rounded-full bg-vision-blue flex items-center justify-center text-xs font-semibold">

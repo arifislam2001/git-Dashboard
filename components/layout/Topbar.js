@@ -18,7 +18,7 @@ export default function Topbar() {
         </div>
         <Bell size={18} className="text-vision-text-muted cursor-pointer" />
         <Settings size={18} className="text-vision-text-muted cursor-pointer" />
-        {/* TODO: আসল avatar ইমেজ দিয়ে বদলান */}
+      
         <div className="w-8 h-8 rounded-full bg-vision-blue" />
       </div>
     </header>

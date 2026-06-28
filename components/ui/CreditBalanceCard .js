@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { FileText, MoreHorizontal } from "lucide-react";
 
 export default function CreditBalanceCard() {
-  const target = 25215; // আসল ব্যালেন্স সংখ্যা — চাইলে বদলান
+  const target = 25215; 
   const [displayValue, setDisplayValue] = useState(0);
 
   useEffect(() => {

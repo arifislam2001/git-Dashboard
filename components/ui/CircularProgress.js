@@ -11,7 +11,7 @@ export default function CircularProgress({
   const [animatedValue, setAnimatedValue] = useState(0);
 
   useEffect(() => {
-    const duration = 1000; // মিলিসেকেন্ডে, কতক্ষণ ধরে count-up চলবে — চাইলে বদলান
+    const duration = 1000; 
     const steps = 60;
     const stepTime = duration / steps;
     let currentStep = 0;

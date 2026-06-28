@@ -4,7 +4,7 @@ export default function ProfileHeader() {
   return (
     <div className="rounded-vision-lg bg-vision-card p-4 flex items-center justify-between flex-wrap gap-4">
       <div className="flex items-center gap-4">
-        {/* TODO: আসল avatar ইমেজ দিয়ে বদলান */}
+
         <div className="relative w-16 h-16 rounded-2xl bg-gradient-to-br from-vision-blue to-purple-600 flex items-center justify-center text-xl font-bold">
           MJ
           <button className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-vision-blue flex items-center justify-center">
